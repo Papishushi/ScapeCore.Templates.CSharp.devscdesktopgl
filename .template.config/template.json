@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Daniel Molinero Lucas",
+  "classifications": [ "ScapeCore", "MonoGame" ],
+  "identity": "ScapeCore.Templates.CSharp.DeveloperDesktopOpenGL",
+  "name": "ScapeCore: Developer Multiplatform Desktop OpenGL Templates",
+  "shortName": "devscdesktopgl",
+  "sourceName": "devscdesktopgl",
+  "preferNameDirectory": true,
+
+  "tags": {
+    "language": "C#",
+    "type": "solution"
+  },
+
+  "guids": [
+    "9A19103F-16F7-4668-BE54-9A1E7A4F7556",
+    "D954291E-2A0B-460D-934E-DC6B0785DB48"
+  ],
+
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "condition": "(HostIdentifier == \"dotnetcli\" ||  HostIdentifier == \"dotnetcli-preview\")",
+          "rename": {
+            "GeneratedSolution.sln": "DeveloperScapeCoreDebug.sln"
+          }
+        }
+      ]
+    }
+  ],
+
+  "symbols": {
+    "HostIdentifier": {
+      "type": "bind",
+      "binding": "HostIdentifier"
+    }
+  }
+}
