@@ -22,3 +22,6 @@
 [submodule "Core/Physics2D"]
 	path = Core/Physics2D
 	url = https://github.com/papishushi/ScapeCore.Core.Physics2D.git
+[submodule "Traceability"]
+	path = Traceability
+	url = https://github.com/Papishushi/ScapeCore.Traceability.git
